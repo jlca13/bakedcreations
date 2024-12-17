@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Submission Form</title>
+</head>
+<body>
+    <h1>Submit Product Information</h1>
+    <form action="submit_product.php" method="POST" enctype="multipart/form-data">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="ProductName" required><br><br>
+        <label for="priceStart">Price Start:</label>
+        <input type="number" id="priceStart" name="PriceStart" step="0.01" required><br><br>
+
+        <label for="priceEnd">Price End:</label>
+        <input type="number" id="priceEnd" name="PriceEnd" step="0.01" required><br><br>
+
+        <label for="sizes">Sizes:</label>
+        <input type="text" id="sizes" name="Sizes" placeholder="e.g., S, M, L, XL" required><br><br>
+
+        <label for="size1">Size 1:</label>
+        <input type="text" id="size1" name="Size1" required>
+        <label for="price1">Price 1:</label>
+        <input type="number" id="price1" name="Price1" step="0.01" required><br><br>
+
+        <label for="size2">Size 2:</label>
+        <input type="text" id="size2" name="Size2">
+        <label for="price2">Price 2:</label>
+        <input type="number" id="price2" name="Price2" step="0.01"><br><br>
+
+        <label for="size3">Size 3:</label>
+        <input type="text" id="size3" name="Size3">
+        <label for="price3">Price 3:</label>
+        <input type="number" id="price3" name="Price3" step="0.01"><br><br>
+
+        <label for="size4">Size 4:</label>
+        <input type="text" id="size4" name="Size4">
+        <label for="price4">Price 4:</label>
+        <input type="number" id="price4" name="Price4" step="0.01"><br><br>
+
+        <label for="size5">Size 5:</label>
+        <input type="text" id="size5" name="Size5">
+        <label for="price5">Price 5:</label>
+        <input type="number" id="price5" name="Price5" step="0.01"><br><br>
+
+        <label for="size6">Size 6:</label>
+        <input type="text" id="size6" name="Size6">
+        <label for="price6">Price 6:</label>
+        <input type="number" id="price6" name="Price6" step="0.01"><br><br>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="Image" accept="image/*"><br><br>
+
+        <input type="submit" value="Submit Product">
+    </form>
+</body>
+</html>
